@@ -4,3 +4,176 @@
 	padding: 0;
 	margin: 0;
 }
+
+.main_width {
+    width: 1000px;
+    margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+.right {
+    float: right;
+}
+.logo {
+	line-height: 50px;
+}
+.green-accent {
+	color: #27c7ab;
+}
+nav {
+	line-height: 50px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 20px;
+	height: 50px;
+}
+
+nav ul li a:link {
+    color: white;
+	text-decoration: none;
+}
+
+section {
+	width: 100%;
+}
+
+section#slider {
+    height: 400px;
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 51%, rgba(237,237,237,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(51%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 51%, rgba(237,237,237,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 51%, rgba(237,237,237,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 51%, rgba(237,237,237,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 51%, rgba(237,237,237,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+
+}
+
+section#slider .main_width {
+    height: 400px;
+}
+
+section#slider .main_width div {
+    float: left;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+section#slider .arrow-left, section#slider .arrow-right {
+    color: #27c7ab;
+    font-size: 28pt;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10;
+}
+
+section#slider .image {
+	background: url("../images/black_chair.png") no-repeat center bottom;
+	width: 460px;
+}
+
+section#slider .text {
+    width: 474px;
+    padding-top: 90px;
+    font-weight: normal;
+    text-align: center;
+}
+
+section#slider .text h1 {
+    text-transform: uppercase;
+	margin: 30px 0;
+    text-align: center;
+	font-size: 36px;
+}
+
+section#slider .text p {
+    font-size: 14px;
+    padding: 0 30px;
+    text-align: center;
+	line-height: 20px;
+}
+
+section#slider button {
+	background-color: #27c7ab;
+	border: 1px solid #27c7ab;
+	border-radius: 10px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 20px;
+	width: 220px;
+	height: 50px;
+	margin-top: 25px;
+
+}
+
+.product {
+    display: inline-block;
+    width: 300px;
+    height: 180px;
+    margin: 25px 25px 25px 0;
+}
+
+#firts-prod {
+	background-image: url("../images/box1_img.jpg");
+}
+
+#second-prod {
+	background-image: url("../images/box2_img.jpg");
+}
+
+#prod-desc {
+	border: 1px solid blue;
+}
+
+section h2 {
+    border-bottom: 4px solid #27c7ab;
+    display: block;
+    text-align: left;
+    width: 300px;
+    margin-left: 65px;
+}
+
+.offer {
+    display: inline-block;
+    width: 270px;
+    height: 180px;
+    border: 1px solid blue;
+    margin: 10px;
+}
+
+.contact-form {
+    display: inline-block;
+    width: 500px;
+    height: 300px;
+    border: 1px solid blue;
+    margin: 10px;
+}
+
+.contact-image {
+    display: inline-block;
+    width: 390px;
+    height: 300px;
+    border: 1px solid blue;
+    margin: 10px;
+}
