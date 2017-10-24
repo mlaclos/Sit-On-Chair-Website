@@ -282,3 +282,33 @@ section h2 {
     border: 1px solid blue;
     margin: 10px;
 }
+
+
+.social-list li {
+    display: inline-block;
+    float: left;
+    margin: 0;
+    padding-right: 7px;
+}
+
+.social-list li a {
+    display: block;
+    height: 35px;
+    width: 35px;
+}
+
+.social-list li.flickr a {
+    background: url("../images/flickr.png") no-repeat;
+}
+
+.social-list li.vimeo a {
+    background: url("../images/vimeo.png") no-repeat;
+}
+
+.social-list li.pinterest a {
+    background: url("../images/pinterest.png") no-repeat;
+}
+
+.social-list li.twitter a {
+    background: url("../images/twitter.png") no-repeat;
+}
