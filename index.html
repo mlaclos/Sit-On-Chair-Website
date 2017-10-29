@@ -125,36 +125,45 @@
     <section id="contact">
         <div class="main_width">
             <h2>Kontakt</h2>
-            <div class="contact-form">
+            <div class="contact-form left">
                 <form method="post" action="serwer.pl/akcja">
-                    <div class="form-module">
+
                         <div class="input-container">
                             <input type="text" id="name" name="name" placeholder="Imię"></input>
                         </div>
-                    </div>
-                    <div class="form-module">
+
+
                         <div class="input-container">
                             <input type="email" id="email" name="email" placeholder="Email"></input>
                         </div>
-                    </div>
-                    <div class="form-module">
+
+
                         <div class="input-container">
-                            <textarea maxlength="160" id="message" name="message" placeholder="Wiadomość"></textarea>
+                            <textarea id="message" name="message" placeholder="Wiadomość"></textarea>
                         </div>
-                    </div>
+
 
                 </form>
             </div>
-            <div class="contact-image">
-                <p>Zgadzam się na przetwarzanie danych osobowych</p>
-                <div class="form-module">
-                    <div class="input-container">
-                        <div class="input-label"></div>
-                        <input type="submit" value="Wyślij"></input>
-                    </div>
+            <div class="contact-image right">
+                <div class="image">
                 </div>
+                <form action="serwer.pl/akcja" method="post">
+                    <div class="agree submit-container">
+                        <input type="checkbox" name="agree" value="valuable" id="agree" checked="checked" ></input>
+                        <label for="agree"></label>
+                        <p>Zgadzam się na przetwarzanie <br> danych osobowych</p>
+                    </div>
+
+
+                    <div class="submit-container">
+                        <input id="submit-form-btn" type="submit" value="Wyślij"></input>
+                    </div>
+
+                </form>
+
             </div>
-            </div>
+        </div>
     </section>
     <footer>
         <div class="main_width">

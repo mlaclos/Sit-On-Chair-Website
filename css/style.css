@@ -3,12 +3,13 @@
 * {
 	padding: 0;
 	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
 }
 
 .main_width {
     width: 1000px;
     margin: 0 auto;
-	font-family: 'Raleway', sans-serif;
 }
 
 div {
@@ -60,7 +61,7 @@ section {
 	overflow: hidden;
 }
 
-button {
+button, #submit-form-btn {
 	background-color: #27c7ab;
 	border: 1px solid #27c7ab;
 	border-radius: 10px;
@@ -268,21 +269,69 @@ section h2 {
 
 
 .contact-form {
-    display: inline-block;
-    width: 500px;
-    height: 300px;
-    border: 1px solid blue;
-    margin: 10px;
+    width: 60%;
 }
 
-.contact-image {
-    display: inline-block;
-    width: 390px;
-    height: 300px;
-    border: 1px solid blue;
-    margin: 10px;
+.input-container input, textarea{
+	width: 100%;
+	border: 1px solid #27c7ab;
+	font-size: 32px;
+	font-weight: 200;
+	padding: 15px;
+	margin-bottom: 25px;
 }
 
+.contact-form input::placeholder, textarea::placeholder {
+  	color: #bcbaba;
+}
+
+.input-container textarea {
+	height: 160px;
+}
+
+.contact-image .image {
+	height: 210px;
+	background: url("../images/red_chair.png") no-repeat center;
+	top: -25px;
+	position: relative;
+}
+
+.agree input[type=checkbox] {
+    display: none;
+}
+
+.agree input[type=checkbox]+label {
+	border: 1px solid #27c7ab;
+    background: #fff;
+    height: 40px;
+    width: 48px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+}
+
+.agree input[type=checkbox]:checked+label {
+	border: 1px solid #27c7ab;
+	background: url("../images/form_ok.jpg")  no-repeat;
+	height: 40px;
+    width: 48px;
+    display: inline-block;
+    padding: 0 0 0 0px;
+}
+
+.agree p {
+	display: inline-block;
+	color: #bcbaba;
+	font-size: 20px;
+	font-weight: 200;
+}
+
+#submit-form-btn {
+    width: 100%;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 15px 0;
+    margin: 20px 0;
+}
 
 .social-list li {
     display: inline-block;
